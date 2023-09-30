@@ -13,8 +13,8 @@ html {
   main {
     padding: 0 20px 40px 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
   }
   
