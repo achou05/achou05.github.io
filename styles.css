@@ -159,13 +159,13 @@
     background-color: #f8f8f8;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: center;
 
   }
   
   .about-image img {
     max-width: 300px;
     border-radius: 3px;
-    text-align: center;
 
   }
   
