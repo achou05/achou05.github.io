@@ -194,6 +194,16 @@
     border-radius: 5px;
   }
 
+  .resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } 
+
   .button {
     background-color: var(--cg-black);
     border: none;
