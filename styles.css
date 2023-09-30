@@ -45,29 +45,24 @@
     position: relative;
     right: 30px;
     list-style: none;
-  
 
   }
   
-  .navbar a {
-    color: var(--cg-white);
-    font-weight: bold;
-    margin: 0 12px;
+  .navbar a{
+    font-size: 18px;
+    color: #fff;
     text-decoration: none;
-    letter-spacing: 2px;
-  
-    font-family: monospace;
-  }
-  
-  .navbar a:hover {
-    color: var(--cg-blue);
-    text-decoration: underline;
-  }
-  
-  .navbar a:active {
-    color: var(--cg-blue);
-  }
-  
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+   .navbar a.active,
+   .navbar a:hover{
+     background: linear-gradient(45deg, #f06, #3cf);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+
   .logo a {
     font-family: Georgia;
   }
