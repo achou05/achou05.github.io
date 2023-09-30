@@ -86,23 +86,30 @@
     font-family: Georgia;
   }
 
+  
   .project {
     display: flex;
-    flex-direction: column; /* Change to column to center vertically */
+    flex-direction: row;
     max-width: 100%;
     margin: 1em 0 2em 0;
-    align-items: center; /* Center vertically */
-}
+  
 
-    .project-image {
+  }
+  
+  .item-link {
+    width: 70%;
+  
+
+  }
+  
+  .project-image {
     object-fit: cover;
     width: 100%;
-    height: auto; /* Auto height to maintain aspect ratio */
-    max-height: 500px; /* Set a maximum height */
-}
-    .item-link {
-    width: 70%;
-    
+    height: 500px;
+    flex-basis: 50px;
+    flex-grow: 2;
+  
+
   }
   
   .project-details {
@@ -186,6 +193,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+
 
   .button {
     background-color: var(--cg-black);
