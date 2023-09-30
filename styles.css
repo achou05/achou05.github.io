@@ -164,6 +164,8 @@
   
   .about-image img {
     max-width: 300px;
+    height: auto;
+    margin: auto;
     border-radius: 3px;
 
   }
