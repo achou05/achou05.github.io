@@ -19,7 +19,6 @@
     font-family: monospace;
   }
   
-  /* CSS for navigation */
   
   .navbar {
     position: -webkit-sticky;
@@ -38,8 +37,7 @@
     color: var(--cg-white);
     padding: 0px 0px;
   
-    /* Debug border */
-    /* border: solid red; */
+
   }
   
   .nav-list {
@@ -49,8 +47,7 @@
     right: 30px;
     list-style: none;
   
-    /* Debug border */
-    /* border: solid blue; */
+
   }
   
   .navbar a {
@@ -94,8 +91,7 @@
     font-size: 40px;
     font-family: Georgia;
   }
-  
-  /* CSS for portfolio grid */
+
   
   .project {
     display: flex;
@@ -103,15 +99,13 @@
     max-width: 100%;
     margin: 1em 0 2em 0;
   
-    /* Debug border */
-    /* border: 2px solid blue; */
+
   }
   
   .item-link {
     width: 70%;
   
-    /* Debug border */
-    /* border: 2px solid red; */
+
   }
   
   .project-image {
@@ -121,8 +115,7 @@
     flex-basis: 50px;
     flex-grow: 2;
   
-    /* Debug border */
-    /* border: 2px solid black; */
+
   }
   
   .project-details {
@@ -140,8 +133,7 @@
     text-align: center;
     justify-content: center;
   
-    /* Debug border */
-    /* border: 2px solid green; */
+
   }
   
   .project-details a {
@@ -165,7 +157,7 @@
     font-size: 20px;
   }
   
-  /* CSS for home page */
+
   
   .about {
     display: flex;
@@ -175,13 +167,13 @@
     background-color: #f8f8f8;
     border: 1px solid #ccc;
     border-radius: 5px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
   }
   
   .about-image img {
     max-width: 300px;
     border-radius: 3px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+
   }
   
   .about-text {
@@ -199,7 +191,6 @@
     line-height: 1.5;
   }
   
-  /* CSS for resume page */
   
   .button {
     background-color: var(--cg-black);
@@ -222,7 +213,6 @@
     font-family: Georgia;
   }
   
-  /* CSS for contact form */
   
   label {
     display: block;
@@ -243,13 +233,11 @@
     resize: none;
   }
   
-  /* Add some spacing to the form */
   form {
     width: 500px;
     margin: 0 auto;
   }
   
-  /* CSS for footer */
   
   .footer {
     display: flex;
