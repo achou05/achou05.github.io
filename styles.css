@@ -93,6 +93,9 @@
     font-family: Georgia;
   }
 
+  .resume{
+    text-align: right;
+  }
   
   .project {
     display: flex;
