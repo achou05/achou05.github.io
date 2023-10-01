@@ -71,6 +71,12 @@
     text-decoration: None;
   }
   
+  .imgMain{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
   main {
     padding: 0 20px 40px 20px;
     display: flex;
