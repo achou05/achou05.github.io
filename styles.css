@@ -11,7 +11,7 @@
   }
   
   body {
-    background: var(--cg-grey);
+  background-color: hotpink;
     position: relative;
     min-height: 100vh;
     padding: 0;
