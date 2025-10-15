@@ -74,12 +74,10 @@
   .imgMain {
   display: block;
   margin: 0 auto;
-  width: 250px; 
+  width: 500px; 
   height: auto;  
   border-radius: 10px; 
   }
-
-
 
   main {
     padding: 0 20px 40px 20px;
