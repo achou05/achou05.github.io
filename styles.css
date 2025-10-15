@@ -71,10 +71,10 @@
     text-decoration: None;
   }
   
-  ..imgMain {
+  .imgMain {
   display: block;
   margin: 0 auto;
-  width: 180px; 
+  width: 250px; 
   height: auto;  
   border-radius: 10px; 
   }
