@@ -71,11 +71,15 @@
     text-decoration: None;
   }
   
-  .imgMain{
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
+  .imgMain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;     
+  height: auto;     
+  border-radius: 10px; 
   }
+
 
   main {
     padding: 0 20px 40px 20px;
